@@ -47,9 +47,57 @@ footer{
     color: #c0c0c0;
     text-align: center;
     padding: 10px;
-    max-width: 1000px;
 }
-
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgb(0, 0, 0, 0.12);
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.gallery img{
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+button{
+    background-color: #0b1f3a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.3;
+}
+input,
+select,
+textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input:focus{
+    border-color: #0b1f3a;
+}
+p{
+    font-size: 1.1em;
+}
+a{
+    color: #c0c0c0;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+main a[href^="mailto:"] {
+    color: blueviolet;
+    font-weight: bold;
+}
 
 
 
