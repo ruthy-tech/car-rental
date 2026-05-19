@@ -131,11 +131,13 @@ tr:nth-child(even){background-color: #97a5a9;}
     border: 1px solid #0b0a0a;
     margin: 0;
     padding: 0;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
+    -webkit-transition: 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px 0 rgba(30, 29, 29, 0.2);
+    background-color: rgba(219, 233, 236, 0.9);
 }
 .price .header {
     background-color: #0b1f3a;
